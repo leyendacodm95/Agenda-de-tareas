@@ -1,0 +1,13 @@
+# Archivos y carpetas generados por Visual Studio
+**/[Bb]in/
+**/[Oo]bj/
+**/[Dd]ebug/
+**/[Rr]elease/
+*.user
+*.suo
+
+# Dependencias descargadas
+**/[Pp]ackages/
+
+# Archivos de caché
+.vs/

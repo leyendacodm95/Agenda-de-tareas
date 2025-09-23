@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\aleja\\onedrive\\escritorio\\programa final\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\EstadoTarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:WindowsFormsApp1\\EstadoTarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\windowsformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:WindowsFormsApp1\\Tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:WindowsFormsApp1\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5FB1AAE-F267-42C4-AD07-DF07600BA9B0}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:WindowsFormsApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Form1.Designer.cs*",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.Designer.cs*",
+              "ViewState": "AgIAANsBAAAAAAAAAAAAAPQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T22:15:19.1Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Form1.cs*",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs*",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAUwN0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T21:59:37.364Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T21:57:21.442Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstadoTarea.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\EstadoTarea.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\EstadoTarea.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\EstadoTarea.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\EstadoTarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T21:58:21.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T22:24:35.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Tarea.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Tarea.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Tarea.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Tarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T22:00:49.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Usuario.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Usuario.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\PROGRAMA FINAL\\WindowsFormsApp1\\Usuario.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Usuario.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T21:58:37.697Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
