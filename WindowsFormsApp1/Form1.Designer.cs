@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace AgendaTareas
+﻿namespace AgendaTareas
 {
     partial class Form1
     {
@@ -20,6 +18,7 @@ namespace AgendaTareas
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.txtTitulo = new System.Windows.Forms.TextBox();
@@ -34,7 +33,6 @@ namespace AgendaTareas
             this.btnBuscarTarea = new System.Windows.Forms.Button();
             this.btnEliminarTarea = new System.Windows.Forms.Button();
             this.btnListarTareas = new System.Windows.Forms.Button();
-            this.btnCambiarEstadoProc = new System.Windows.Forms.Button();
             this.lstTareas = new System.Windows.Forms.ListBox();
             this.Proceso = new System.Windows.Forms.ListBox();
             this.Finalizadas = new System.Windows.Forms.ListBox();
@@ -45,12 +43,12 @@ namespace AgendaTareas
             this.lblhora = new System.Windows.Forms.Label();
             this.lblfecha = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnAgregarTarea = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.horafecha = new System.Windows.Forms.Timer(this.components);
-            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.horafecha = new System.Windows.Forms.Timer(this.components);
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -66,8 +64,9 @@ namespace AgendaTareas
             // 
             this.txtNombre.BackColor = System.Drawing.SystemColors.Info;
             this.txtNombre.Location = new System.Drawing.Point(11, 102);
+            this.txtNombre.MaxLength = 256;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(121, 20);
+            this.txtNombre.Size = new System.Drawing.Size(121, 26);
             this.txtNombre.TabIndex = 0;
             // 
             // txtDescripcion
@@ -75,26 +74,28 @@ namespace AgendaTareas
             this.txtDescripcion.BackColor = System.Drawing.SystemColors.Info;
             this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.Location = new System.Drawing.Point(13, 313);
+            this.txtDescripcion.MaxLength = 256;
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(255, 116);
             this.txtDescripcion.TabIndex = 1;
-            this.txtDescripcion.TextChanged += new System.EventHandler(this.txtDescripcion_TextChanged);
             // 
             // txtTitulo
             // 
             this.txtTitulo.BackColor = System.Drawing.SystemColors.Info;
             this.txtTitulo.Location = new System.Drawing.Point(13, 237);
+            this.txtTitulo.MaxLength = 256;
             this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(255, 20);
+            this.txtTitulo.Size = new System.Drawing.Size(255, 26);
             this.txtTitulo.TabIndex = 2;
             // 
             // txtCorreo
             // 
             this.txtCorreo.BackColor = System.Drawing.SystemColors.Info;
             this.txtCorreo.Location = new System.Drawing.Point(142, 102);
+            this.txtCorreo.MaxLength = 256;
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(126, 20);
+            this.txtCorreo.Size = new System.Drawing.Size(126, 26);
             this.txtCorreo.TabIndex = 3;
             // 
             // label1
@@ -154,7 +155,6 @@ namespace AgendaTareas
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 8;
             this.button4.Text = "Cambiar Estado";
-            this.button4.Click += new System.EventHandler(this.btnCambiarEstado_Click);
             // 
             // btnBuscarTarea
             // 
@@ -182,35 +182,34 @@ namespace AgendaTareas
             this.btnListarTareas.TabIndex = 13;
             this.btnListarTareas.Text = "Listar Tareas";
             // 
-            // btnCambiarEstadoProc
-            // 
-            this.btnCambiarEstadoProc.Location = new System.Drawing.Point(351, 644);
-            this.btnCambiarEstadoProc.Name = "btnCambiarEstadoProc";
-            this.btnCambiarEstadoProc.Size = new System.Drawing.Size(205, 32);
-            this.btnCambiarEstadoProc.TabIndex = 14;
-            this.btnCambiarEstadoProc.Text = "Cambiar Estado";
-            this.btnCambiarEstadoProc.Click += new System.EventHandler(this.btnCambiarEstadoPend_Click);
-            // 
             // lstTareas
             // 
+            this.lstTareas.HorizontalExtent = 500;
+            this.lstTareas.HorizontalScrollbar = true;
+            this.lstTareas.ItemHeight = 20;
             this.lstTareas.Location = new System.Drawing.Point(316, 154);
             this.lstTareas.Name = "lstTareas";
-            this.lstTareas.Size = new System.Drawing.Size(268, 472);
+            this.lstTareas.Size = new System.Drawing.Size(198, 464);
             this.lstTareas.TabIndex = 13;
-            this.lstTareas.SelectedIndexChanged += new System.EventHandler(this.lstTareas_SelectedIndexChanged);
             // 
             // Proceso
             // 
+            this.Proceso.HorizontalExtent = 500;
+            this.Proceso.HorizontalScrollbar = true;
+            this.Proceso.ItemHeight = 20;
             this.Proceso.Location = new System.Drawing.Point(611, 154);
             this.Proceso.Name = "Proceso";
-            this.Proceso.Size = new System.Drawing.Size(268, 472);
+            this.Proceso.Size = new System.Drawing.Size(201, 464);
             this.Proceso.TabIndex = 19;
             // 
             // Finalizadas
             // 
-            this.Finalizadas.Location = new System.Drawing.Point(907, 154);
+            this.Finalizadas.HorizontalExtent = 500;
+            this.Finalizadas.HorizontalScrollbar = true;
+            this.Finalizadas.ItemHeight = 20;
+            this.Finalizadas.Location = new System.Drawing.Point(912, 154);
             this.Finalizadas.Name = "Finalizadas";
-            this.Finalizadas.Size = new System.Drawing.Size(268, 472);
+            this.Finalizadas.Size = new System.Drawing.Size(200, 464);
             this.Finalizadas.TabIndex = 20;
             // 
             // BarraTitulo
@@ -232,7 +231,7 @@ namespace AgendaTareas
             // BotonCerrar
             // 
             this.BotonCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BotonCerrar.Image = global::WindowsFormsApp1.Properties.Resources.cerrar_ventana;
+            this.BotonCerrar.Image = global::Agenda.Properties.Resources.cerrar_ventana;
             this.BotonCerrar.Location = new System.Drawing.Point(1144, 4);
             this.BotonCerrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BotonCerrar.Name = "BotonCerrar";
@@ -246,7 +245,7 @@ namespace AgendaTareas
             // 
             this.Minimizar.BackColor = System.Drawing.SystemColors.GrayText;
             this.Minimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Minimizar.Image = global::WindowsFormsApp1.Properties.Resources.minimazar;
+            this.Minimizar.Image = global::Agenda.Properties.Resources.minimazar;
             this.Minimizar.Location = new System.Drawing.Point(1092, 4);
             this.Minimizar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Minimizar.Name = "Minimizar";
@@ -258,7 +257,7 @@ namespace AgendaTareas
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.tarea;
+            this.pictureBox3.Image = global::Agenda.Properties.Resources.tarea;
             this.pictureBox3.Location = new System.Drawing.Point(0, 8);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
@@ -275,10 +274,9 @@ namespace AgendaTareas
             this.lblhora.Location = new System.Drawing.Point(806, 9);
             this.lblhora.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblhora.Name = "lblhora";
-            this.lblhora.Size = new System.Drawing.Size(107, 46);
+            this.lblhora.Size = new System.Drawing.Size(159, 69);
             this.lblhora.TabIndex = 23;
             this.lblhora.Text = "Hora";
-            this.lblhora.Click += new System.EventHandler(this.lblhora_Click);
             // 
             // lblfecha
             // 
@@ -288,10 +286,9 @@ namespace AgendaTareas
             this.lblfecha.Location = new System.Drawing.Point(311, 18);
             this.lblfecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfecha.Name = "lblfecha";
-            this.lblfecha.Size = new System.Drawing.Size(67, 25);
+            this.lblfecha.Size = new System.Drawing.Size(97, 36);
             this.lblfecha.TabIndex = 24;
             this.lblfecha.Text = "Fecha";
-            this.lblfecha.Click += new System.EventHandler(this.lblfecha_Click);
             // 
             // panel1
             // 
@@ -317,6 +314,15 @@ namespace AgendaTareas
             this.panel1.Size = new System.Drawing.Size(283, 948);
             this.panel1.TabIndex = 15;
             // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Location = new System.Drawing.Point(839, 624);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(164, 32);
+            this.btnGuardar.TabIndex = 18;
+            this.btnGuardar.Text = "Guardar proyecto";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(56, 563);
@@ -338,7 +344,7 @@ namespace AgendaTareas
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.cropped_Logotipo_sitio_web_1;
+            this.pictureBox2.Image = global::Agenda.Properties.Resources.cropped_Logotipo_sitio_web_1;
             this.pictureBox2.Location = new System.Drawing.Point(13, 11);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
@@ -347,18 +353,9 @@ namespace AgendaTareas
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
             // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(637, 644);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(226, 32);
-            this.button5.TabIndex = 21;
-            this.button5.Text = "Cambiar Estado";
-            this.button5.Click += new System.EventHandler(this.btnCambiarEstadoProc_Click);
-            // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(963, 644);
+            this.button6.Location = new System.Drawing.Point(1009, 624);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(164, 32);
             this.button6.TabIndex = 22;
@@ -368,41 +365,41 @@ namespace AgendaTareas
             // textBox2
             // 
             this.textBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox2.Location = new System.Drawing.Point(670, 116);
+            this.textBox2.Location = new System.Drawing.Point(639, 116);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(142, 20);
+            this.textBox2.Size = new System.Drawing.Size(142, 26);
             this.textBox2.TabIndex = 25;
             this.textBox2.Text = "Tareas en proceso";
             // 
             // textBox3
             // 
             this.textBox3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox3.Location = new System.Drawing.Point(985, 116);
+            this.textBox3.Location = new System.Drawing.Point(939, 116);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(142, 20);
+            this.textBox3.Size = new System.Drawing.Size(142, 26);
             this.textBox3.TabIndex = 26;
             this.textBox3.Text = "Tareas finalizadas";
             // 
             // textBox1
             // 
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox1.Location = new System.Drawing.Point(351, 116);
+            this.textBox1.Location = new System.Drawing.Point(316, 116);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(198, 20);
+            this.textBox1.Size = new System.Drawing.Size(198, 26);
             this.textBox1.TabIndex = 27;
-            this.textBox1.Text = "Lista de tareas por realizar";
+            this.textBox1.Text = "Tareas pendientes";
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(1201, 733);
+            this.ClientSize = new System.Drawing.Size(1201, 662);
+            this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.Finalizadas);
             this.Controls.Add(this.Proceso);
             this.Controls.Add(this.panel1);
@@ -410,8 +407,8 @@ namespace AgendaTareas
             this.Controls.Add(this.lstTareas);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.btnCambiarEstadoProc);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Lista de Tareas";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -428,12 +425,6 @@ namespace AgendaTareas
 
         }
 
-        private void btnCambiarEstado_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
-
         #endregion
 
         private System.Windows.Forms.TextBox txtNombre;
@@ -445,22 +436,19 @@ namespace AgendaTareas
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1; // Registro usuario
-        private System.Windows.Forms.Button button4; // Cambiar estado
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ListBox lstTareas;
         private System.Windows.Forms.Panel BarraTitulo;
         private System.Windows.Forms.Panel panel1;
-       private System.Windows.Forms.ListBox Proceso;
+        private System.Windows.Forms.ListBox Proceso;
         private System.Windows.Forms.ListBox Finalizadas;
         private System.Windows.Forms.Timer horafecha;
-        // Nuevos botones adicionales
         private System.Windows.Forms.Button btnBuscarTarea;
         private System.Windows.Forms.Button btnEliminarTarea;
         private System.Windows.Forms.Button btnListarTareas;
-        private System.Windows.Forms.Button btnCambiarEstadoProc;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnAgregarTarea;
         private System.Windows.Forms.PictureBox Minimizar;
         private System.Windows.Forms.PictureBox BotonCerrar;
@@ -471,5 +459,6 @@ namespace AgendaTareas
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnGuardar;
     }
 }

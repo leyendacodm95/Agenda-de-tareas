@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using AgendaTareas;
 
@@ -10,7 +7,7 @@ namespace WindowsFormsApp1
     internal static class Program
     {
         /// <summary>
-        /// Punto de entrada principal para la aplicación.
+        /// Punto de entrada principal para la aplicación. Inicia y ejecuta el formulario principal (Form1).
         /// </summary>
         [STAThread]
         static void Main()

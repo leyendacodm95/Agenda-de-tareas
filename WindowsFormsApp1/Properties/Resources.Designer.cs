@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp1.Properties {
+namespace Agenda.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WindowsFormsApp1.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WindowsFormsApp1.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Agenda.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -126,16 +126,6 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap tarea {
             get {
                 object obj = ResourceManager.GetObject("tarea", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap wallpapersden_com_samurai_is_ready_4k_art_3840x2400 {
-            get {
-                object obj = ResourceManager.GetObject("wallpapersden.com_samurai-is-ready-4k-art_3840x2400", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
